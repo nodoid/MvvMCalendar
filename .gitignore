@@ -1,0 +1,8 @@
+packages/*
+Droid/bin/*
+Droid/obj/*
+iOS/bin/*
+iOS/obj/*
+MvvMCalendar/bin/*
+MvvMCalendar/obj/*
+

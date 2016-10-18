@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{A88882B0-C23F-488C-BA84-AAC9E0731D5E}|Default">
+  <MonoDevelop.Ide.ItemProperties.MvvMCalendar.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.66.101:5555" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="MvvMCalendar/ViewModelLocator.cs" Line="26" Column="34" />
+      <File FileName="MvvMCalendar/ViewModel/MainViewModel.cs" Line="82" Column="13" />
+      <File FileName="Droid/Views/MainActivity.cs" Line="154" Column="14" />
+      <File FileName="MvvMCalendar/ViewModel/BaseViewModel.cs" Line="8" Column="2" />
+      <File FileName="Droid/Views/MainActivity.UI.cs" Line="392" Column="10" />
+      <File FileName="Droid/Resources/values/Colors.xml" Line="13" Column="24" />
+      <File FileName="Droid/App.cs" Line="36" Column="1" />
+      <File FileName="iOS/Views/ViewController.cs" Line="14" Column="10" />
+      <File FileName="iOS/AppDelegate.cs" Line="11" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/PFJ/Developer/MvvMCalendar/Droid/Views/MainActivity.cs" line="155" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MvvMCalendar.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.79A3B80A-7E02-4807-9069-469CBCDE90F1" />
+</Properties>

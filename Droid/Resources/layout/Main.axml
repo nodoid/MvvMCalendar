@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/linearLayout7"
+        android:background="@color/black"
+        android:gravity="center">
+        <TextView
+            android:text="Large Texty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtViewTitle"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:background="@color/black"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_weight=".2"
+        android:weightSum="1"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout4"
+            android:layout_weight=".9"
+            android:gravity="center">
+            <TextView
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtMonth"
+                android:textSize="36dp"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout5"
+            android:layout_weight=".1">
+            <TableLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tableLayout1"
+                android:stretchColumns="*"
+                android:collapseColumns="2">
+                <TableRow
+                    android:id="@+id/tableRow1">
+                    <Button
+                        android:text="Last month"
+                        android:layout_column="0"
+                        android:id="@+id/btnBack"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp" />
+                    <Button
+                        android:text="Next month"
+                        android:layout_column="1"
+                        android:id="@+id/btnNext"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_weight=".6"
+        android:background="#ffffffff">
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableLayout2"
+            android:stretchColumns="*">
+            <TableRow
+                android:id="@+id/tableRow2">
+                <TextView
+                    android:text="Sun"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/txtSun"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/primaryblue" />
+                <TextView
+                    android:text="Mon"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="1"
+                    android:id="@+id/txtMon"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/primaryblue" />
+                <TextView
+                    android:text="Tue"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="2"
+                    android:id="@+id/txtTue"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/primaryblue" />
+                <TextView
+                    android:text="Wed"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtWed"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/primaryblue" />
+                <TextView
+                    android:text="Thu"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtThur"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/primaryblue" />
+                <TextView
+                    android:text="Fri"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtFri"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/primaryblue" />
+                <TextView
+                    android:text="Sat"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtSat"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/primaryblue" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3">
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/txtDate1"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="1"
+                    android:id="@+id/txtDate2"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="2"
+                    android:id="@+id/txtDate3"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate4"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate5"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate6"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate7"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow4">
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/txtDate8"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="1"
+                    android:id="@+id/txtDate9"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="2"
+                    android:id="@+id/txtDate10"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate11"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate12"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate13"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate14"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow2">
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/txtDate15"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="1"
+                    android:id="@+id/txtDate16"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="2"
+                    android:id="@+id/txtDate17"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate18"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate19"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate20"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate21"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3">
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/txtDate22"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="1"
+                    android:id="@+id/txtDate23"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="2"
+                    android:id="@+id/txtDate24"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate25"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate26"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate27"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate28"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow4">
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/txtDate29"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="1"
+                    android:id="@+id/txtDate30"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="2"
+                    android:id="@+id/txtDate31"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate32"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate33"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate34"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+                <TextView
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDate35"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/turquoise" />
+            </TableRow>
+        </TableLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:id="@+id/space2" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout6"
+            android:weightSum="1"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:layout_weight=".2"
+        android:gravity="top">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/space1" />
+    </LinearLayout>
+</LinearLayout>
